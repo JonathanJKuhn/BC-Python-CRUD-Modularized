@@ -1,5 +1,4 @@
-from urllib.parse import uses_relative
-from mysqlconnection import connectToMySQL
+from User_CRUD_Modularized.config.mysqlconnection import connectToMySQL
 
 class User:
     def __init__( self, data):
