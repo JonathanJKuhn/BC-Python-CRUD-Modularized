@@ -1,6 +1,6 @@
-from User_CRUD_Modularized import app
+from flask_app import app
 from flask import render_template, request, redirect
-from User_CRUD_Modularized.models.user import User
+from flask_app.models.user import User
 
 @app.route('/')
 def home():
